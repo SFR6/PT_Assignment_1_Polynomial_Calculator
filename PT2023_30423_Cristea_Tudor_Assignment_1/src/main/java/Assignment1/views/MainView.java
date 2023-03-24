@@ -76,7 +76,7 @@ public class MainView extends JFrame
 
     public MainView()
     {
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Tudor Cristea\\Pictures\\Screenshots\\calculator-2017-10-10.png"));
+        //this.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Tudor Cristea\\Pictures\\Screenshots\\calculator-2017-10-10.png"));
         this.setTitle("Polynomial Calculator");
         this.getContentPane().setBackground(new Color(216, 191, 216));
         this.setBounds(100, 100, 880, 500);

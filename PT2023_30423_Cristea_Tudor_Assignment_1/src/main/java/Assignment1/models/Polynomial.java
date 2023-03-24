@@ -336,8 +336,7 @@ public class Polynomial
                 f = r;
                 monomialMapF.clear();
                 monomialMapF.putAll(f.getMonomialMap());
-            }while(monomialMapR.firstEntry().getKey() >= monomialMapG.firstEntry().getKey() && r.getMonomialMap().get(0) != 0);
-
+            }while(monomialMapR.firstEntry().getKey() >= monomialMapG.firstEntry().getKey() && monomialMapR.firstEntry().getValue() != 0);
             return new Polynomial[]{q, r};
         }
     }
